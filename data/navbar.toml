@@ -19,6 +19,18 @@ logo  = "img/logo.png"
   type = "whatsapp"
   id   = "+33780776247"
 
+[[button]]
+  enabled     = true
+  text        = "Linkedin"
+  link        = "https://www.linkedin.com/in/vanshika-jain04"
+  target      = "_blank"
+  
+[[button]]
+  enabled     = true
+  text        = "Whatsapp"
+  link        = "https://api.whatsapp.com/send/?phone=%2B33780776247&text&type=phone_number&app_absent=0"
+  target      = "_blank"
+  
 [[menu]]
   text        = "Projects"
   description = "Discover my personal projects"
