@@ -18,10 +18,23 @@ title = "Professional Journey"
  ]
 
 [[company]]
-  name = "Company 3"
-  date = "2020"
-  role = "Software Engineer"
+  name = "Vestiaire Collective"
+  date = "2023 Jan - 2023 Jun"
+  role = "Research Data Scientist and Analyst"
   text = [
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam.",
-  ]
+    "Collaborated with cross-functional teams in Paris and Singapore to analyze 200 million+ consumer transaction and platform interaction data using Big Data analytics. Additionally, developed Tableau dashboards that unveiled critical user behavior patterns and revenue trends, showcasing strong analytical skills and ability to work effectively in diverse, global teams.",
+    "Leveraged predictive modeling to engineer a Customer Lifetime Value (CLTV)-based machine learning model for precise customer segmentation. Further, used this model for targeted marketing with voucher approach, contributing to a 20% growth in retention rates and a €1 million increase in revenue, demonstrating expertise in data-driven marketing strategy development.",
+    "To enhance insight dissemination across the organization, built a user-friendly Flask web application that significantly increased data utilization across departments, reflecting technical proficiency and commitment to fostering uniform comprehension within the company."
+    ]
+[[company]]
+  name = "ION Trading"
+  date = "2020 Aug - 2022 Jul"
+  role = "Software Engineer and Financial Analyst"
+  text = [
+    "Conducted monthly software compliance and financial market data analyses for EU and US trading softwares, translating complex financial services concepts into technical specifications."
+    "Worked with cross-functional teams to define product roadmaps for APIs of financial trading platform like Tradeweb.",
+"Led feature development projects in C++ and C#, introducing 20 new API features. Further modernized legacy codebases in C using Agile methodologies, reducing operational costs by 50%.",
+
+"Additionally, performed A/B testing for risk management features in trading UIs, analyzing over 500,000 trades, leading to 15% fewer user-reported issues and a 12% improvement in system performance",
+
+"Furthermore, managed client relationships for Tradeweb solutions with top banking organisations ensuring high levels of product satisfaction. The top banking organisations include JPMorgan, Goldman Sachs, CitiBank, BNP Paribas, and more, across six global locations."]
