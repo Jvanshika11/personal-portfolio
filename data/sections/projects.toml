@@ -19,13 +19,6 @@ title = "Certifications, Awards and Publications"
   link = "https://www.coursera.org/account/accomplishments/certificate/22V97GQDWCTP"
   
 [[project]]
-  title = "Python Data Stuctures Certification (2020)"
-  text = [
-    "Completed detailed course work from University of Michigan provided by coursera to get comprehensive understanding of Data structures in Python."
-    ]
-  link = "https://www.coursera.org/account/accomplishments/certificate/22V97GQDWCTP"
-  
-[[project]]
   title = "C#: classes, interfaces and OOPs (2020)"
   text = [
     "Completed detailed course work from Udemy to get comprehensive understanding of Programming practices in C#.",
