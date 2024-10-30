@@ -1,8 +1,8 @@
 title = "Skills & Service Offerings"
 [[skill]]
   title = "Data Analytics & Business Intelligence"
-  text  = "Deep qualified with AWS cloud services. Capable of develop serverless, containerized, and traditional services. As well as, experienced with writing infrastructure as code with Terraform."
-  icon  = "bx-cloud"
+  text  = "Proficient in leveraging Python (NumPy, Pandas, SciPy, Seaborn), SQL databases (MySQL, PostgreSQL), NoSQL (MongoDB), and Advanced Excel for data manipulation and analysis. Experienced with data visualization & BI tools including Looker, Power BI, and Tableau. Further expertise includes Statistical modeling, Regression analysis, Descriptive analytics, and Geospatial analysis."
+  icon  = "bx-bar-chart"
 
 [[skill]]
   title = "Machine Learning & AI"
