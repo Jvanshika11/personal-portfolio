@@ -1,6 +1,6 @@
 baseURL      = 'https://vanshika-jain.netlify.app/'
 languageCode = 'en-us'
-title        = 'My New Hugo Site'
+title        = '#VanshikaJain'
 
 
 [params]
@@ -8,7 +8,7 @@ title        = 'My New Hugo Site'
   keywords    = "Vanshika Jain, personal website, blog, portfolio"
 
   [params.author]
-    name = 'John Doe'
+    name = 'Vanshika Jain'
 
 
 # Add theme using Hugo modules
