@@ -1,6 +1,6 @@
 title = "Professional Journey"
 [[company]]
-  name = "L’Oréal"
+  name = "L’Oréal, Paris, France"
   date = "2024 Jan - 2024 Aug"
   role = "CRM Data Program Manager"
   text = [
@@ -18,7 +18,7 @@ title = "Professional Journey"
  ]
 
 [[company]]
-  name = "Vestiaire Collective"
+  name = "Vestiaire Collective, Paris, France"
   date = "2023 Jan - 2023 Jun"
   role = "Research Data Scientist and Analyst"
   text = [
@@ -27,7 +27,7 @@ title = "Professional Journey"
     "To enhance insight dissemination across the organization, built a user-friendly Flask web application that significantly increased data utilization across departments, reflecting technical proficiency and commitment to fostering uniform comprehension within the company."
     ]
 [[company]]
-  name = "ION Trading"
+  name = "ION Trading, Delhi, India"
   date = "2020 Aug - 2022 Jul"
   role = "Software Engineer and Financial Analyst"
   text = [
