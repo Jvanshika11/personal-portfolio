@@ -1,7 +1,9 @@
 title = "Skills & Service Offerings"
 [[skill]]
   title = "Data Analytics & Business Intelligence"
-  text  = "Proficient in leveraging R, Python (NumPy, Pandas, SciPy, Seaborn), SQL databases (MySQL, PostgreSQL), NoSQL (MongoDB), and Advanced Excel for data manipulation and analysis.  Expertise includes Statistical modeling, Regression analysis, Descriptive analytics, and A/B testing. Further experienced with BI tools including Looker, Power BI, and Tableau."
+  text  = ["Proficient in leveraging R, Python (NumPy, Pandas, SciPy, Seaborn), SQL databases (MySQL, PostgreSQL), NoSQL (MongoDB), and Advanced Excel for data manipulation and analysis.",
+  "Expertise includes Statistical modeling, Regression analysis, Descriptive analytics, and A/B testing.", 
+  "Further experienced with BI tools including Looker, Power BI, and Tableau."]
   icon  = "bx-bar-chart"
 
 [[skill]]
@@ -10,14 +12,14 @@ title = "Skills & Service Offerings"
   icon  = "bx-brain"
 
 [[skill]]
-  title = "Financial & Business Analysis"
-  text  = "Expertise in financial and business analysis with experience in requirements elicitation, user story creation, and strategic frameworks including SWOT and RACI. Additionally, skilled in ROI analysis, Risk assessment, and Financial modelling, leveraging Monte Carlo simulations. Time Series forecasting and Sensitivity analysis"
-  icon  = "bx-bar-chart"
-
-[[skill]]
   title = "Program & Product Management"
   text  = "Experienced in applying Agile methodologies (Scrum, Kanban) to enhance project efficiency and delivery. Experienced in Product roadmapping, Organised operations, and Budget optimisation, using SLx alongside tools like Jira, ServiceNow, and Confluence to streamline processes and improve tracking. Proficient in data flow diagramming with Miro, Visio, and Draw.io, and prototyping with Figma and AdobeXD to align product vision with stakeholder needs. Additionally, adept with Microsoft 365, Google Workspace, and Canva for effective communication and collaboration."
   icon  = "bx-group"
+
+[[skill]]
+  title = "Financial & Business Analysis"
+  text  = "Expertise in financial and business analysis with experience in requirements elicitation, user story creation, and strategic frameworks including SWOT and RACI. Additionally, skilled in ROI analysis, Risk assessment, and Financial modelling, leveraging Monte Carlo simulations, Time Series forecasting and Sensitivity analysis"
+  icon  = "bx-bar-chart"
 
 [[skill]]
   title = "Cloud & DevOps"
