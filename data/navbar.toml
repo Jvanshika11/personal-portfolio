@@ -1,4 +1,4 @@
-title = "hugo-porto"
+title = "Vanshika Jain"
 # logo  = "img/logo.svg"
 
 [[menu]]
@@ -8,13 +8,13 @@ title = "hugo-porto"
   target      = "_self"
 
 [[menu]]
-  text        = "Posts"
-  description = "Read my latest posts"
+  text        = "Projects"
+  description = "Discover my personal projects"
   link        = "/posts"
   target      = "_self"
 
 [button]
   enabled = true
-  text    = "Get my CV"
+  text    = "Download my CV"
   link    = "files/cv.pdf"
   target  = "_blank"
