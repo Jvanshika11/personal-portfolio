@@ -1,11 +1,23 @@
-title = "Vanshika Jain"
+title = "Home"
 logo  = "img/logo.png"
 
-[[menu]]
-  text        = "Home"
-  description = "Welcome to my personal website"
-  link        = "/"
-  target      = "_self"
+# [[menu]]
+#   text        = "Home"
+#   description = "Welcome to my personal website"
+#   link        = "/"
+#   target      = "_self"
+
+[[social]]
+  type = "linkedin"
+  id   = "vanshika-jain04"
+
+[[social]]
+  type = "github"
+  id   = "Jvanshika11"
+
+[[social]]
+  type = "whatsapp"
+  id   = "+33780776247"
 
 [[menu]]
   text        = "Projects"
