@@ -1,16 +1,47 @@
-
+title = "Certifications, Awards and Publications"
 [[project]]
-  title = "Python Industry oriented training"
+  title = "Runner up for L'Oreal Data Hackathon (2023)"
   text = [
-    "Completed Python Industry Oriented Training from Webtek Labs Pvt. Ltd.",
-    "Delivered a capstone project using Django Framework and NoSQL to build Social Networking website."
+    "Won the 2nd position prize for the discovering and developing a prototype for an efficient, feasilble, sustainable and innovative solution to enhance consumer engagement and relevant analytical database."
+    ]
+[[project]]
+  title = "Springer Research Publication: Deep Learning on Small Tabular Dataset (2021)"
+  text = [
+    "Primary author of the Research Paper published in Springer CCIS AI series where we discovered a novel approach to perform deep learning on small tabular datasets(with less than 1000 data points) using Transfer Learning and Image classification.
+    We attained significant improvement in prediction accuracy of type-2 Diabetes on the Pima Indian Dataset with this method.
+    link = "https://link.springer.com/chapter/10.1007/978-3-030-95711-7_46"
+  
+[[project]]
+  title = "Python Data Stuctures Certification (2020)"
+  text = [
+    "Completed detailed course work from University of Michigan provided by coursera to get comprehensive understanding of Data structures in Python."]
+  link = "https://www.coursera.org/account/accomplishments/certificate/22V97GQDWCTP"
+  
+[[project]]
+  title = "Python Data Stuctures Certification (2020)"
+  text = [
+    "Completed detailed course work from University of Michigan provided by coursera to get comprehensive understanding of Data structures in Python."]
+  link = "https://www.coursera.org/account/accomplishments/certificate/22V97GQDWCTP"
+  
+[[project]]
+  title = "C#: classes, interfaces and OOPs (2020)"
+  text = [
+    "Completed detailed course work from Udemy to get comprehensive understanding of Programming practices in C#.",
+    "Credential ID: UC-78d92cdf-115d-46ds-b9f5-bec2f37a0c6e"]
     
+[[project]]
+  title = "Infosys Certified Software Programmer (2019)"
+  text = [
+    "Scored above 90% in Infosys software certification exam including objective and subjective problems related to Python and SQL"]
+    
+[[project]]
+  title = "Python Industry oriented training (2018)"
+  text = [
+    "Completed Python Industry Oriented Training from Webtek Labs Pvt. Ltd. Delivered a capstone project using Django Framework and NoSQL to build Social Networking website."
   ]
-  link = "https://github.com/johndoe/project-one"
 
 [[project]]
-  title = "Project Two"
+  title = "Intern of the Year at Umeed NGO (2017)"
   text = [
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Nullam nec nisl nec nunc. Nullam nec nisl nec nunc. Nullam nec nisl nec nunc. Nullam nec nisl nec nunc. Nullam nec nisl nec nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc.",
-  ]
-  link = "https://github.com/johndoe/project-two"
+    "Wored with NGO management for Event Planning and Human resource acquisition in the form of volunteers, alongside serving the bigger purpose of service towards environment and sustainable development. Received the recognition for Intern of the Year for efforts and diligence."
+]
