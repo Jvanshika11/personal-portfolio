@@ -1,9 +1,7 @@
 title = "Skills & Service Offerings"
 [[skill]]
   title = "Data Analytics & Business Intelligence"
-  text  = ["Proficient in leveraging R, Python (NumPy, Pandas, SciPy, Seaborn), SQL databases (MySQL, PostgreSQL), NoSQL (MongoDB), and Advanced Excel for data manipulation and analysis.",
-  "Expertise includes Statistical modeling, Regression analysis, Descriptive analytics, and A/B testing.", 
-  "Further experienced with BI tools including Looker, Power BI, and Tableau."]
+  text  = "Proficient in leveraging R, Python (NumPy, Pandas, SciPy, Seaborn), SQL databases (MySQL, PostgreSQL), NoSQL (MongoDB), and Advanced Excel for data manipulation and analysis. Expertise includes Statistical modeling, Regression analysis, Descriptive analytics, and A/B testing. Further experienced with BI tools including Looker, Power BI, and Tableau."
   icon  = "bx-bar-chart"
 
 [[skill]]
