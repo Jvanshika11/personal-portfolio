@@ -1,28 +1,37 @@
+
 [[testimonial]]
   name = "Rakia LAHOUAR"
   role = "Technical Business Analyst: CRM & DATA @ Davidson Consulting Group, France"
   text = "Vanshika is a very hard-working person who can tackle any problem with ease. We have worked together on several project, and I found her a highly skilled and dedicated professional. She’s also an all-around great person to work with! I highly recommend her!"
-[[testimonial]]
-  name = "Eugenia MASINI"
-  role = "Key Account Specialist: Luxury Division @ L'Oréal, Italy"
-  text = "Vanshika is very reliable and available for last-minute tasks. Her professionalism makes working with her very pleasant!"
-[[testimonial]]
-  name = "Sam CROSSMAN"
-  role = "Chief Digital Officer - Travel Retail Worldwide @ L'Oréal"
-  text = "Vanshika is a bright star for the future! She performed excellently at a Hackathon L’Oreal hosted so it was great news that she decided to join us here to kick off her career!"
+
 [[testimonial]]
   name = "Matteo ZACCAGNINI"
   role = "IT Project Management Specialist @ L'Oréal, Italy"
   text = "Vanshika is a really great professional in terms of technical knowledge and absolutely reliable. She also combines this with a very human and understanding approach. She is truly a pleasure to work with!"
-[[testimonial]]
-  name = "Pierre JACOB"
-  role = "Statistics Professor @ Essec Business School, France"
-  text = "I have had the pleasure of working with Vanshika during her time as a master's student in Data Science and Business Analytics at ESSEC and CentraleSupelec. Vanshika was a bright and dedicated student who demonstrated a deep understanding of the Forecasting subject matter. Her work on Forecast Combination was great. Vanshika demonstrated meticulous attention to detail and strong problem-solving skills, adding great value to her project. Vanshika possesses a rare blend of technical acuity and strong communication skills. I don't doubt that her diligence and commitment to delivering exceptional results will continue to shape her future successes."
-[[testimonial]]
-  name = "Aayush JAIN"
-  role = "Senior Software Development Engineer @ Swiggy, India"
-  text = "Throughout our time working together at ION, Vanshika's proactive attitude and resilience stood out for me as her personal mentor. She faced challenges with grace and turned them into opportunities for learning and self-improvement. She quickly distinguished herself as someone who was not only dedicated and skilled but also genuinely open to growth and development. She was always eager to absorb new concepts and continually sought feedback to improve her skills and knowledge. Her strong empathetic nature and ability to engage deeply in a unique way with her work and colleagues allowed her to build meaningful relationships and excel in collaborative settings. Her passion, intellect, and genuine kindness make her a valuable asset to any team. Moreover, her truly contagious energy brings a refreshing perspective to any situation."
+
 [[testimonial]]
   name = "Rebekah McMANUS"
   role = "Digital Marketer @ L'Oréal, UK"
   text = "Working with Vanshika has been a please. She is great at communicating, and always points us in the right direction when we need it. Her attention to detail has certainly improved the efficiency within the team."
+
+[[testimonial]]
+  name = "Eugenia MASINI"
+  role = "Key Account Specialist: Luxury Division @ L'Oréal, Italy"
+  text = "Vanshika is very reliable and available for last-minute tasks. Her professionalism makes working with her very pleasant!"
+
+[[testimonial]]
+  name = "Sam CROSSMAN"
+  role = "Chief Digital Officer - Travel Retail Worldwide @ L'Oréal"
+  text = "Vanshika is a bright star for the future! She performed excellently at a Hackathon L’Oreal hosted so it was great news that she decided to join us here to kick off her career!"
+
+[[testimonial]]
+  name = "Pierre JACOB"
+  role = "Statistics Professor @ Essec Business School, France"
+  text = "Vanshika is a bright and dedicated student who demonstrated a deep understanding of the Forecasting subject matter. She demonstrated meticulous attention to detail and strong problem-solving skills, adding great value to her project. I don't doubt that her diligence and commitment to delivering exceptional results will continue to shape her future successes."
+
+[[testimonial]]
+  name = "Aayush JAIN"
+  role = "Senior Software Development Engineer @ Swiggy, India"
+  text = "Vanshika's proactive attitude and resilience stood out for me as her personal mentor. She faced challenges with grace and turned them into opportunities for learning and self-improvement. Her passion, intellect, and genuine kindness make her a valuable asset to any team. Moreover, her truly contagious energy brings a refreshing perspective to any situation."
+
+
