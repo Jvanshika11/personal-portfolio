@@ -4,8 +4,8 @@ title        = 'My New Hugo Site'
 
 
 [params]
-  description = "John Doe personal website"
-  keywords    = "John Doe, personal website, blog, portfolio"
+  description = "Vanshika Jain personal website"
+  keywords    = "Vanshika Jain, personal website, blog, portfolio"
 
   [params.author]
     name = 'John Doe'
