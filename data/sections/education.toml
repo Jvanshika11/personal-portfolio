@@ -1,15 +1,11 @@
-# The list of education places and courses
+title = "Educational Qualifications"
 [[education]]
-  date  = "2024"
-  title = "Professional Course"
-  text  = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien fermentum tincidunt. Nullam nec purus nec purus fermentum tincidunt. Nullam nec purus nec purus fermentum tincidunt."
+  date  = "2022 - 2024"
+  title = "Master of Science Data Science and Business Analytics (Double Major)"
+  text  = "Grade: 15.4(on a scale of 20)"
 
 [[education]]
-  date  = "2011 - 2014"
-  title = "Training Center"
-  text  = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien fermentum tincidunt. Nullam nec purus nec purus fermentum tincidunt. Nullam nec purus nec purus fermentum tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  date  = "2016 - 2020"
+  title = "Bachelors of Computer Science Engineering (Minor in Finance)"
+  text  = "Grade: 8.48(on a scale of 10)"
 
-[[education]]
-  date  = "1990 - 1996"
-  title = "University"
-  text  = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien fermentum tincidunt. Nullam nec purus nec purus fermentum tincidunt."
