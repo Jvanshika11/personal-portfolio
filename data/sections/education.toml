@@ -1,10 +1,12 @@
 title = "Educational Qualifications"
 [[education]]
+  University = "Essec Business School and CentraleSupelec (France)"
   date  = "2022 - 2024"
   title = "Master of Science Data Science and Business Analytics (Double Major)"
   text  = "Grade: 15.4(on a scale of 20)"
 
 [[education]]
+  University = "Guru Gobind Singh Indraprastha University (India)"
   date  = "2016 - 2020"
   title = "Bachelors of Computer Science Engineering (Minor in Finance)"
   text  = "Grade: 8.48(on a scale of 10)"
