@@ -31,7 +31,7 @@ title = "Professional Journey"
   date = "2020 Aug - 2022 Jul"
   role = "Software Engineer and Financial Analyst"
   text = [
-    "Conducted monthly software compliance and financial market data analyses for EU and US trading softwares, translating complex financial services concepts into technical specifications."
+    "Conducted monthly software compliance and financial market data analyses for EU and US trading softwares, translating complex financial services concepts into technical specifications.",
     "Worked with cross-functional teams to define product roadmaps for APIs of financial trading platform like Tradeweb.",
 "Led feature development projects in C++ and C#, introducing 20 new API features. Further modernized legacy codebases in C using Agile methodologies, reducing operational costs by 50%.",
 
