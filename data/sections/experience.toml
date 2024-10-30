@@ -1,24 +1,21 @@
 title = "Professional Journey"
 [[company]]
-  name = "L’Oréal (Global pioneer in driving cutting-edge beauty innovation with technology and data)"
-  date = "2024 Jan - 2024 August"
+  name = "L’Oréal"
+  date = "2024 Jan - 2024 Aug"
   role = "CRM Data Program Manager"
   text = [
-  "I successfully led the EMEA Data Acquisition Program, expanding the scope across 15 countries and 12 brands, demonstrating strategic market expansion capabilites. By effectively collaborating with cross-functional teams, I enhanced user engagement by approximately 40% with the introduction of 5 new feature evolutions, demonstrating strong leadership, ownership, and teamwork skills." ,
-  "Through meticulous budget optimization, I identified opportunities for a 20% cost reduction without compromising performance of the Data Acquisition Program, highlighting my financial acumen and resource management capabilities.",
+  "I successfully led the EMEA Data Acquisition Program, expanding the scope across 15 countries and 12 brands, demonstrating my strategic market expansion capabilites. By effectively collaborating with cross-functional teams, I enhanced user engagement by approximately 40% with the introduction of 5 new feature evolutions, demonstrating strong leadership, ownership, and teamwork skills. Further, through meticulous budget optimization, I identified opportunities for a 20% cost reduction without compromising performance of the Data Acquisition Program, highlighting my financial acumen and resource management capabilities.",
 "In addition to this, I developed 3 new dashboards and improved the data quality of 2 existing Looker dashboards, significantly enhancing KPI monitoring across CRM programs such as Loyalty, Consumer Care, and Feedback, enabling informed decision-making.",
 "Furthermore, I automated GDPR compliance processes for two CRM programs, eliminating manual errors and saving around 10 hours weekly for the team, underscoring my proficiency in process automation and my commitment to ensuring operational efficiency."
    ]
 
 [[company]]
-  name = "Company 2"
-  date = "2020 - 2022"
-  role = "Backend Developer"
+  date = "2023 Jul - 2023 Dec"
+  role = "Business and Data Analyst"
   text = [
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam.",
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Cras elementum ultrices diam.",
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.",
-  ]
+   "Effectively managed offshore resources and facilitated cross-team collaborations for the Data Acquisition Program, resulting in a remarkable 150% boost in SLA adherence, highlighting strong project management and communication skills, as well as my ability to lead diverse teams toward achieving common goals.",
+"Additionally, I streamlined project tracking for the Loyalty Program by implementing agile methodologies, enhancing the program's scalability and adaptability, demonstrating proficiency in agile practices and commitment for continuous improvement to ensure quick response in changing requirements."
+ ]
 
 [[company]]
   name = "Company 3"
