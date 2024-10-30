@@ -11,7 +11,7 @@ title = "Skills & Service Offerings"
 
 [[skill]]
   title = "Program & Product Management"
-  text  = "Experienced in applying Agile methodologies (Scrum, Kanban) to enhance project efficiency and delivery. Experienced in Product roadmapping, Organised operations, and Budget optimisation, using SLx alongside tools like Jira, ServiceNow, and Confluence to streamline processes and improve tracking. Proficient in data flow diagramming with Miro, Visio, and Draw.io, and prototyping with Figma and AdobeXD to align product vision with stakeholder needs. Additionally, adept with Microsoft 365, Google Workspace, and Canva for effective communication and collaboration."
+  text  = "Experienced in applying Agile methodologies (Scrum, Kanban), Product roadmapping, Budget optimisation, and Organised operations with SLx, using tools like Jira, ServiceNow, and Confluence to streamline processes and improve tracking. Proficient in data flow diagramming with Miro, Visio, and Draw.io, and prototyping with Figma and AdobeXD to align product vision with stakeholder needs. Additionally, adept with Microsoft 365, Google Workspace, and Canva for effective communication and collaboration."
   icon  = "bx-group"
 
 [[skill]]
