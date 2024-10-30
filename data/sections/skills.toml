@@ -1,15 +1,33 @@
 
 [[skill]]
-  title = "Cloud Computing"
+  title = "Data Analytics & Business Intelligence"
   text  = "Deep qualified with AWS cloud services. Capable of develop serverless, containerized, and traditional services. As well as, experienced with writing infrastructure as code with Terraform."
   icon  = "bx-cloud"
 
 [[skill]]
-  title = "Docker & Kubernetes"
+  title = "Machine Learning & AI"
   text  = "Utilizing Docker, Swarm, and Kubernetes for developing and deploying applications. Proficient in multi-stage and multi-architecture builds, inclusive of docker-compose."
   icon  = "bxl-docker"
 
 [[skill]]
-  title = "Node.js & React.js"
+  title = "Financial & Business Analysis"
   text  = "Proficient in using JavaScript and TypeScript for both frontend and backend services, including RESTful and GraphQL APIs. Well-versed in frameworks such as React.js, Express.js, Nest.js, and others."
   icon  = "bxl-nodejs"
+
+[[skill]]
+  title = "Program & Product Management"
+  text  = "Proficient in using JavaScript and TypeScript for both frontend and backend services, including RESTful and GraphQL APIs. Well-versed in frameworks such as React.js, Express.js, Nest.js, and others."
+  icon  = "bxl-nodejs"
+
+[[skill]]
+  title = "Cloud & DevOps"
+  text  = "Proficient in using JavaScript and TypeScript for both frontend and backend services, including RESTful and GraphQL APIs. Well-versed in frameworks such as React.js, Express.js, Nest.js, and others."
+  icon  = "bxl-nodejs"
+
+[[skill]]
+  title = "Software & Web Development"
+  text  = "Proficient in using JavaScript and TypeScript for both frontend and backend services, including RESTful and GraphQL APIs. Well-versed in frameworks such as React.js, Express.js, Nest.js, and others."
+  icon  = "bxl-nodejs"
+  
+
+  
