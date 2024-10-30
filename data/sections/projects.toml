@@ -7,20 +7,22 @@ title = "Certifications, Awards and Publications"
 [[project]]
   title = "Springer Research Publication: Deep Learning on Small Tabular Dataset (2021)"
   text = [
-    "Primary author of the Research Paper published in Springer CCIS AI series where we discovered a novel approach to perform deep learning on small tabular datasets(with less than 1000 data points) using Transfer Learning and Image classification.
-    We attained significant improvement in prediction accuracy of type-2 Diabetes on the Pima Indian Dataset with this method.
+    "Primary author of the Research Paper published in Springer CCIS AI series where we discovered a novel approach to perform deep learning on small tabular datasets(with less than 1000 data points) using Transfer Learning and Image classification.",
+    "We attained significant improvement in prediction accuracy of type-2 Diabetes on the Pima Indian Dataset with this method."]
     link = "https://link.springer.com/chapter/10.1007/978-3-030-95711-7_46"
   
 [[project]]
   title = "Python Data Stuctures Certification (2020)"
   text = [
-    "Completed detailed course work from University of Michigan provided by coursera to get comprehensive understanding of Data structures in Python."]
+    "Completed detailed course work from University of Michigan provided by coursera to get comprehensive understanding of Data structures in Python."
+    ]
   link = "https://www.coursera.org/account/accomplishments/certificate/22V97GQDWCTP"
   
 [[project]]
   title = "Python Data Stuctures Certification (2020)"
   text = [
-    "Completed detailed course work from University of Michigan provided by coursera to get comprehensive understanding of Data structures in Python."]
+    "Completed detailed course work from University of Michigan provided by coursera to get comprehensive understanding of Data structures in Python."
+    ]
   link = "https://www.coursera.org/account/accomplishments/certificate/22V97GQDWCTP"
   
 [[project]]
