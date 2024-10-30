@@ -1,5 +1,5 @@
 title = "Vanshika Jain"
-# logo  = "img/logo.png"
+logo  = "img/logo.png"
 
 [[menu]]
   text        = "Home"
