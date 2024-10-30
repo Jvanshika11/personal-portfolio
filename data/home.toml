@@ -14,11 +14,6 @@
   weight  = 4
 
 [[section]]
-  id      = "custom"
-  enabled = true
-  weight  = 7
-
-[[section]]
   id      = "education"
   enabled = true
   weight  = 5
