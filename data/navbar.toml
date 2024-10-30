@@ -7,16 +7,16 @@ logo  = "img/logo.png"
 #   link        = "/"
 #   target      = "_self"
 
+[[menu]]
+  text        = "Call/Whatsapp @ +33780776247"
+  link        = "https://api.whatsapp.com/send/?phone=%2B33780776247&text&type=phone_number&app_absent=0"
+  target      = "_blank"
 
 [[menu]]
   text        = "Linkedin"
   link        = "https://www.linkedin.com/in/vanshika-jain04"
   target      = "_blank"
   
-[[menu]]
-  text        = "Whatsapp"
-  link        = "https://api.whatsapp.com/send/?phone=%2B33780776247&text&type=phone_number&app_absent=0"
-  target      = "_blank"
   
 [[menu]]
   text        = "Projects"
