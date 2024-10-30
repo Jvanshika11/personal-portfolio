@@ -16,11 +16,6 @@
   text = "Working with Vanshika has been a please. She is great at communicating, and always points us in the right direction when we need it. Her attention to detail has certainly improved the efficiency within the team."
 
 [[testimonial]]
-  name = "Sam CROSSMAN"
-  role = "Chief Digital Officer - Travel Retail Worldwide @ L'Oréal"
-  text = "Vanshika is a bright star for the future! She performed excellently at a Hackathon L’Oreal hosted so it was great news that she decided to join us here to kick off her career!"
-
-[[testimonial]]
   name = "Pierre JACOB"
   role = "Statistics Professor @ Essec Business School, France"
   text = "Vanshika is a bright and dedicated student who demonstrated a deep understanding of the Forecasting subject matter. She demonstrated meticulous attention to detail and strong problem-solving skills, adding great value to her project. I don't doubt that her diligence and commitment to delivering exceptional results will continue to shape her future successes."
@@ -30,4 +25,8 @@
   role = "Senior Software Development Engineer @ Swiggy, India"
   text = "Vanshika's proactive attitude and resilience stood out for me as her personal mentor. She faced challenges with grace and turned them into opportunities for learning and self-improvement. Her passion, intellect, and genuine kindness make her a valuable asset to any team. Moreover, her truly contagious energy brings a refreshing perspective to any situation."
 
+[[testimonial]]
+  name = "Sam CROSSMAN"
+  role = "Chief Digital Officer - Travel Retail Worldwide @ L'Oréal"
+  text = "Vanshika is a bright star for the future! She performed excellently at a Hackathon L’Oreal hosted so it was great news that she decided to join us here to kick off her career!"
 
