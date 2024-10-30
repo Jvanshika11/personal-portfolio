@@ -16,12 +16,17 @@
 [[section]]
   id      = "custom"
   enabled = true
-  weight  = 7
+  weight  = 8
 
 [[section]]
   id      = "education"
   enabled = true
   weight  = 5
+
+[[section]]
+  id      = "Achievments_publications"
+  enabled = true
+  weight  = 6
 
 [[section]]
   id      = "projects"
