@@ -7,26 +7,13 @@ logo  = "img/logo.png"
 #   link        = "/"
 #   target      = "_self"
 
-[[social]]
-  type = "linkedin"
-  id   = "vanshika-jain04"
 
-[[social]]
-  type = "github"
-  id   = "Jvanshika11"
-
-[[social]]
-  type = "whatsapp"
-  id   = "+33780776247"
-
-[[button]]
-  enabled     = true
+[[menu]]
   text        = "Linkedin"
   link        = "https://www.linkedin.com/in/vanshika-jain04"
   target      = "_blank"
   
-[[button]]
-  enabled     = true
+[[menu]]
   text        = "Whatsapp"
   link        = "https://api.whatsapp.com/send/?phone=%2B33780776247&text&type=phone_number&app_absent=0"
   target      = "_blank"
