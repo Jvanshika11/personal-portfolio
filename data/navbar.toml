@@ -18,7 +18,15 @@ logo  = "img/logo.png"
   link        = "https://www.linkedin.com/in/vanshika-jain04"
   target      = "_blank"
 
+[[menu]]
+  text        = "Skills & Services"
+  link        = "#skills"
+  target      = "_self"
   
+[[menu]]
+  text        = "Testimonials"
+  link        = "#testimonials"
+  target      = "_self"
   
 [[menu]]
   text        = "Projects"
