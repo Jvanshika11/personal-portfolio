@@ -1,25 +1,22 @@
-<h2 class="text-center text-4xl md:text-5xl lg:text-7xl p-5 rounded-xl font-medium font-poppins text-gray-400">
-  {{ .Site.Data.sections.custom.title | default "Title not found" }}
-</h2>
-
-<div class="text-gray-600 container mx-auto p-5">
-  {{ if .Site.Data.sections.custom.project }}
-    {{ range .Site.Data.sections.custom.project }}
-      <div class="mb-8">
-        <h3 class="text-2xl font-semibold text-gray-700">{{ .title | default "Project title not found" }}</h3>
-        
-        {{ range .text }}
-          <p class="text-lg font-light mt-2">{{ . }}</p>
-        {{ end }}
-        
-        {{ with .link }}
-          <p class="mt-2">
-            <a href="{{ . }}" target="_blank" class="text-blue-600 underline">Read more</a>
-          </p>
-        {{ end }}
-      </div>
-    {{ end }}
-  {{ else }}
-    <p>No projects found in custom.toml</p>
+{{/* Custom data from configuration file */}}
+{{ with site.Data.sections.custom }}
+  {{ with .text }}
+    {{ $text = . }}
   {{ end }}
+  {{ with .image }}{{ $image = . }}{{ end }}
+{{ end }}
+
+
+<h2 class="text-center text-4xl md:text-5xl lg:text-7xl p-5 rounded-xl font-medium font-poppins text-gray-400">
+  Custom section
+</h2>
+<div class="text-gray-600 container mx-auto flex flex-col md:flex-row items-center justify-center p-5">
+  <div class="w-full md:w-1/2 p-5">
+    <p class="text-lg md:text-xl lg:text-2xl font-light font-poppins">
+      {{ $text }}
+    </p>
+  </div>
+  <div class="w-full md:w-1/2 p-5">
+    <img class="rounded-lg" src="{{ $image }}" alt="Custom image" />
+  </div>
 </div>
