@@ -16,6 +16,11 @@ logo  = "img/logo.png"
   text        = "Linkedin"
   link        = "https://www.linkedin.com/in/vanshika-jain04"
   target      = "_blank"
+
+[[menu]]
+  text        = "Linkedin"
+  link        = "/custom"
+  target      = "_blank"
   
   
 # [[menu]]
