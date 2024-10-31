@@ -1,26 +1,21 @@
-{{/* Custom data from configuration file */}}
-{{ with site.Data.sections.publications }}
-  {{ $projects = slice }}
-  {{ if .title }}{{ $title = .title }}{{ end }}
-  {{ if .project }}{{ $projects = .project }}{{ end }}
-{{ end }}
-
-
-<h2 class="text-center text-4xl md:text-5xl lg:text-7xl p-5 font-medium font-poppins text-gray-400">
-  {{ $title }}
+<h2 class="text-center text-4xl md:text-5xl lg:text-7xl p-5 rounded-xl font-medium font-poppins text-gray-400">
+  {{ .Site.Data.sections.publications.title }}
 </h2>
-{{ range $projects }}
-  <div class="mb-9 px-7 p-5 sm:p-9 lg:px-6 xl:px-9 border-b-2 border-gray-300 last:border-b-0 text-gray-600">
-    <div>
-      <h3 class="mb-4 font-light text-3xl">{{ .title }}</h3>
+
+<div class="text-gray-600 container mx-auto p-5">
+  {{ range .Site.Data.sections.publications.project }}
+    <div class="mb-8">
+      <h3 class="text-2xl font-semibold text-gray-700">{{ .title }}</h3>
+      
       {{ range .text }}
-        <p class="md:pl-10 py-2 text-xl font-light">
-          {{ . }}
+        <p class="text-lg font-light mt-2">{{ . }}</p>
+      {{ end }}
+      
+      {{ with .link }}
+        <p class="mt-2">
+          <a href="{{ . }}" target="_blank" class="text-blue-600 underline">Read more</a>
         </p>
       {{ end }}
     </div>
-    <div class="mt-5">
-      <a href="{{ .link }}" target="_blank" class="text-blue-500 hover:underline">{{ .link }}</a>
-    </div>
-  </div>
-{{ end }}
+  {{ end }}
+</div>
