@@ -26,7 +26,7 @@
 
 [[section]]
   id      = "custom"
-  enabled = true
+  enabled = false
   weight  = 7
 
 [[section]]
