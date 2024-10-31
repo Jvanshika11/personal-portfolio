@@ -19,10 +19,13 @@ logo  = "img/logo.png"
 
 [[menu]]
   text        = "Skills & Services"
-  description = "Discover my personal projects"
   link        = "#skills"
   target      = "_self"
-
+  
+[[menu]]
+  text        = "Testimonials"
+  link        = "#testimonials"
+  target      = "_self"
   
   
 # [[menu]]
