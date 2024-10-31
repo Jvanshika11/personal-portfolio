@@ -1,8 +1,14 @@
 {{/* Default data */}}
 {{ $text := "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, autem tempora provident nihil iste sint excepturi quasi asperiores. Vero itaque labore animi eveniet laboriosam? Dolore ea explicabo corrupti rerum exercitationem." }}
 {{/* Define a list variable for testimonials */}}
-{{ $testimonials := slice  "Great service!" "Loved the experience." "Will definitely come back." "Highly recommend to everyone!" }}
-
+{{ $testimonials := slice
+  (dict "name" "Rakia LAHOUAR" "role" "Technical Business Analyst: CRM & DATA @ Davidson Consulting Group, France" "text" "Vanshika is a very hard-working person who can tackle any problem with ease. We have worked together on several projects, and I found her a highly skilled and dedicated professional. She’s also an all-around great person to work with! I highly recommend her!")
+  (dict "name" "Matteo ZACCAGNINI" "role" "IT Project Management Specialist @ L'Oréal, Italy" "text" "Vanshika is a really great professional in terms of technical knowledge and absolutely reliable. She also combines this with a very human and understanding approach. She is truly a pleasure to work with!")
+  (dict "name" "Rebekah McMANUS" "role" "Digital Marketer @ L'Oréal, UK" "text" "Working with Vanshika has been a pleasure. She is great at communicating and always points us in the right direction when we need it. Her attention to detail has certainly improved the efficiency within the team.")
+  (dict "name" "Pierre JACOB" "role" "Statistics Professor @ Essec Business School, France" "text" "Vanshika is a bright and dedicated student who demonstrated a deep understanding of the Forecasting subject matter. She demonstrated meticulous attention to detail and strong problem-solving skills, adding great value to her project. I don't doubt that her diligence and commitment to delivering exceptional results will continue to shape her future successes.")
+  (dict "name" "Aayush JAIN" "role" "Senior Software Development Engineer @ Swiggy, India" "text" "Vanshika's proactive attitude and resilience stood out for me as her personal mentor. She faced challenges with grace and turned them into opportunities for learning and self-improvement. Her passion, intellect, and genuine kindness make her a valuable asset to any team. Moreover, her truly contagious energy brings a refreshing perspective to any situation.")
+  (dict "name" "Sam CROSSMAN" "role" "Chief Digital Officer - Travel Retail Worldwide @ L'Oréal" "text" "Vanshika is a bright star for the future! She performed excellently at a Hackathon L’Oreal hosted so it was great news that she decided to join us here to kick off her career!")
+}}
 
 {{/* Custom data from configuration file */}}
 {{ with site.Data.sections.testimonials2 }}
@@ -15,10 +21,20 @@
 <h2 class="text-center text-4xl md:text-5xl lg:text-7xl p-5 rounded-xl font-medium font-poppins text-gray-400">
   {{ $text }}
 </h2>
-<ul class="text-center">
+<div class="-mx-5 flex flex-wrap py-5 text-gray-600">
   {{ range $testimonials }}
-    <li class="mb-2">{{ . }}</li>
+    <div class="w-full md:w-1/2 lg:w-1/3 px-5">
+      <div class="mb-9 rounded-xl p-7 sm:p-9 lg:px-6 xl:px-9 bg-gray-50">
+        <div>
+          <p class="text-lg font-light">
+            {{ .text }}
+          </p>
+          <div class="text-md mt-5 font-medium text-right">{{ .name }}</div>
+          <div class="text-base text-gray-400 font-light text-right">{{ .role }}</div>
+        </div>
+      </div>
+    </div>
   {{ end }}
-</ul>
+</div>
 
 
