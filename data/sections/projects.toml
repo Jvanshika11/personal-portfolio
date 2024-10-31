@@ -8,7 +8,7 @@ title = "Certifications, Awards and Publications"
   title = "Springer Research Publication: Deep Learning on Small Tabular Dataset (2021)"
   text = [
     "Primary author of the Research Paper published in Springer CCIS AI series where we discovered a novel approach to perform deep learning on small tabular datasets(with less than 1000 data points) using Transfer Learning and Image classification.",
-    "We attained significant improvement in prediction accuracy of type-2 Diabetes on the Pima Indian Dataset with this method."
+    "We attained significant improvement in prediction accuracy of type-2 Diabetes on the Pima Indian Dataset with this method.<a href='https://example.com/link-to-hackathon' target='_blank'>Read more</a>"
     ]
     link = "https://link.springer.com/chapter/10.1007/978-3-030-95711-7_46"
   
