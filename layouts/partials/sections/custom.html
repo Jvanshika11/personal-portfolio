@@ -1,21 +1,25 @@
 <h2 class="text-center text-4xl md:text-5xl lg:text-7xl p-5 rounded-xl font-medium font-poppins text-gray-400">
-  {{ .Site.Data.sections.publications.title }}
+  {{ .Site.Data.sections.publications.title | default "Title not found" }}
 </h2>
 
 <div class="text-gray-600 container mx-auto p-5">
-  {{ range .Site.Data.sections.publications.project }}
-    <div class="mb-8">
-      <h3 class="text-2xl font-semibold text-gray-700">{{ .title }}</h3>
-      
-      {{ range .text }}
-        <p class="text-lg font-light mt-2">{{ . }}</p>
-      {{ end }}
-      
-      {{ with .link }}
-        <p class="mt-2">
-          <a href="{{ . }}" target="_blank" class="text-blue-600 underline">Read more</a>
-        </p>
-      {{ end }}
-    </div>
+  {{ if .Site.Data.sections.publications.project }}
+    {{ range .Site.Data.sections.publications.project }}
+      <div class="mb-8">
+        <h3 class="text-2xl font-semibold text-gray-700">{{ .title | default "Project title not found" }}</h3>
+        
+        {{ range .text }}
+          <p class="text-lg font-light mt-2">{{ . }}</p>
+        {{ end }}
+        
+        {{ with .link }}
+          <p class="mt-2">
+            <a href="{{ . }}" target="_blank" class="text-blue-600 underline">Read more</a>
+          </p>
+        {{ end }}
+      </div>
+    {{ end }}
+  {{ else }}
+    <p>No projects found in publications.toml</p>
   {{ end }}
 </div>
