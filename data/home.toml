@@ -23,6 +23,10 @@
   enabled = true
   weight  = 6
 
+[[section]]
+  id      = "my_skills"
+  enabled = true
+  weight  = 7
 
 
 [[section]]
