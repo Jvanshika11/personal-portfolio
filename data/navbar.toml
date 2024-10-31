@@ -19,11 +19,11 @@ logo  = "img/logo.png"
 
   
   
-# [[menu]]
-#   text        = "Projects"
-#   description = "Discover my personal projects"
-#   link        = "/posts"
-#   target      = "_self"
+[[menu]]
+  text        = "Projects"
+  description = "Discover my personal projects"
+  link        = "/posts"
+  target      = "_self"
 
 [button]
   enabled = true
