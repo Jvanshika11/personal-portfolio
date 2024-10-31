@@ -1,5 +1,7 @@
 {{/* Default data */}}
 {{ $text := "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, autem tempora provident nihil iste sint excepturi quasi asperiores. Vero itaque labore animi eveniet laboriosam? Dolore ea explicabo corrupti rerum exercitationem." }}
+{{/* Define a list variable for testimonials */}}
+{{ $testimonials := list "Great service!" "Loved the experience." "Will definitely come back." "Highly recommend to everyone!" }}
 
 
 {{/* Custom data from configuration file */}}
@@ -13,7 +15,9 @@
 <h2 class="text-center text-4xl md:text-5xl lg:text-7xl p-5 rounded-xl font-medium font-poppins text-gray-400">
   {{ $text }}
 </h2>
+<ul class="text-center">
+  {{ range $testimonials }}
+    <li class="mb-2">{{ . }}</li>
+  {{ end }}
+</ul>
 
-<h2 class="text-center pb-5 text-4xl md:text-5xl lg:text-7xl font-medium font-poppins text-gray-400">
-  {{ $text }}
-</h2>
