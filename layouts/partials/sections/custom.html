@@ -1,10 +1,10 @@
 <h2 class="text-center text-4xl md:text-5xl lg:text-7xl p-5 rounded-xl font-medium font-poppins text-gray-400">
-  {{ .Site.Data.sections.publications.title | default "Title not found" }}
+  {{ .Site.Data.sections.custom.title | default "Title not found" }}
 </h2>
 
 <div class="text-gray-600 container mx-auto p-5">
-  {{ if .Site.Data.sections.publications.project }}
-    {{ range .Site.Data.sections.publications.project }}
+  {{ if .Site.Data.sections.custom.project }}
+    {{ range .Site.Data.sections.custom.project }}
       <div class="mb-8">
         <h3 class="text-2xl font-semibold text-gray-700">{{ .title | default "Project title not found" }}</h3>
         
@@ -20,6 +20,6 @@
       </div>
     {{ end }}
   {{ else }}
-    <p>No projects found in publications.toml</p>
+    <p>No projects found in custom.toml</p>
   {{ end }}
 </div>
