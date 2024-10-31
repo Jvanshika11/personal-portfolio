@@ -28,7 +28,10 @@
   id      = "custom"
   enabled = true
   weight  = 7
-
+[[section]]
+  id      = "testimonials2"
+  enabled = true
+  weight  = 8
 
 
 [[section]]
