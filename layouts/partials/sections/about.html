@@ -51,6 +51,39 @@
     </div>
   </div>
 </div>
-<div class="text-lg xl:text-xl text-center font-light p-2 md:p-10">
+
+<div class="md:flex lg:space-x-5 xl:space-x-10 items-center py-2"></div>
+
+<!-- Toggle Button and Description -->
+<div class="text-center">
+  <button
+    onclick="toggleDescription()"
+    class="mt-5 px-6 py-3 bg-gray-300 text-gray-800 font-semibold rounded hover:bg-gray-400 focus:outline-none flex items-center justify-center"
+  >
+    <span id="toggleText">More about me</span>
+    <i id="arrow" class="bx bx-chevron-down ml-2"></i>
+  </button>
+</div>
+
+<div id="description" class="text-lg xl:text-xl text-center font-light p-2 md:p-10 hidden">
   {{ $description }}
 </div>
+
+<script>
+  function toggleDescription() {
+    const description = document.getElementById('description');
+    const toggleText = document.getElementById('toggleText');
+    const arrow = document.getElementById('arrow');
+
+    // Toggle visibility
+    if (description.classList.contains('hidden')) {
+      description.classList.remove('hidden');
+      toggleText.innerText = 'Less about me';
+      arrow.classList.replace('bx-chevron-down', 'bx-chevron-up');
+    } else {
+      description.classList.add('hidden');
+      toggleText.innerText = 'More about me';
+      arrow.classList.replace('bx-chevron-up', 'bx-chevron-down');
+    }
+  }
+</script>
