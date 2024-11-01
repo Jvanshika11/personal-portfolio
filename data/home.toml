@@ -4,7 +4,7 @@
   weight  = 1
 
 [[section]]
-  id      = "skills"
+  id      = "my_skills"
   enabled = true
   weight  = 2
   
@@ -25,14 +25,9 @@
   weight  = 6
 
 [[section]]
-  id      = "my_skills"
-  enabled = true
-  weight  = 7
-
-[[section]]
   id      = "my_certifications"
   enabled = true
-  weight  = 8
+  weight  = 7
 
 
 [[section]]
