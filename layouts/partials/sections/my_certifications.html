@@ -1,7 +1,7 @@
 {{/* Default data */}}
 {{ $title := "Certifications" }}
 {{ $projects := slice
-  (dict "title" "Python Data Structures Certification (2020)" "link" "https://www.coursera.org/account/accomplishments/certificate/22V97GQDWCTP" "source" "University of Michigan(course available on Coursera)" "credentials" "")
+  (dict "title" "Python Data Structures Certification (2020)" "link" "https://www.coursera.org/account/accomplishments/certificate/22V97GQDWCTP" "source" "University of Michigan(course available on Coursera)" "credentials" "View certificate")
   (dict "title" "C#: classes, interfaces and OOPs (2020)" "link" "" "source" "Udemy" "credentials" "UC-78d92cdf-115d-46ds-b9f5-bec2f37a0c6e"))
   (dict "title" "Infosys Certified Software Programmer (2019)" "link" "" "source" "Infosys Python & SQL certification exam" "credentials" ""))
   (dict "title" "Python Industry Oriented Training (2018)" "link" "" "source" "Webtek Labs Pvt. Ltd., Delhi" "credentials" ""))
@@ -20,11 +20,12 @@
         <div>
           <h3 class="mb-4 text-lg font-medium sm:text-xl lg:text-lg xl:text-xl">{{ .title }}</h3>
             <p class="md:pl-10 py-2 text-xl font-light">
-              <span><strong>Source:</strong></span>{{ .source }}
+              <span><strong>Source:</strong></span>
+              {{ .source }}
             </p>
           <p class="md:pl-10 py-2 text-xl font-light">
               <span><strong>Credentials:</strong></span>
-              <a href={{ .link }}>{{ .credentials }}</a>
+              <a href="{{ .link }}" target="_blank" class="text-blue-500 hover:underline">{{ .credentials }}</a>
             </p>
         </div>
       </div>
