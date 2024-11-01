@@ -1,4 +1,4 @@
-title = "Certifications, Awards and Publications"
+title = "Awards and Publications"
 [[project]]
   title = "Runner up for L'Oreal Data Hackathon (2023)"
   text = [
@@ -12,32 +12,4 @@ title = "Certifications, Awards and Publications"
     ]
     link = "https://link.springer.com/chapter/10.1007/978-3-030-95711-7_46"
   
-[[project]]
-  title = "Python Data Stuctures Certification (2020)"
-  text = [
-    "Completed detailed course work from University of Michigan provided by coursera to get comprehensive understanding of Data structures in Python."
-    ]
-  link = "https://www.coursera.org/account/accomplishments/certificate/22V97GQDWCTP"
-  
-[[project]]
-  title = "C#: classes, interfaces and OOPs (2020)"
-  text = [
-    "Completed detailed course work from Udemy to get comprehensive understanding of Programming practices in C#.",
-    "Credential ID: UC-78d92cdf-115d-46ds-b9f5-bec2f37a0c6e"]
-    
-[[project]]
-  title = "Infosys Certified Software Programmer (2019)"
-  text = [
-    "Scored above 90% in Infosys software certification exam including objective and subjective problems related to Python and SQL"]
-    
-[[project]]
-  title = "Python Industry oriented training (2018)"
-  text = [
-    "Completed Python Industry Oriented Training from Webtek Labs Pvt. Ltd. Delivered a capstone project using Django Framework and NoSQL to build Social Networking website."
-  ]
 
-[[project]]
-  title = "Intern of the Year at Umeed NGO (2017)"
-  text = [
-    "Wored with NGO management for Event Planning and Human resource acquisition in the form of volunteers, alongside serving the bigger purpose of service towards environment and sustainable development. Received the recognition for Intern of the Year for efforts and diligence."
-]
