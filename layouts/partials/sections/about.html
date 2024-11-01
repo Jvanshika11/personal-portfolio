@@ -12,7 +12,7 @@
 {{ $description := "I am a software engineer and manager with a passion for building and leading high-performing teams. I have a strong background in software development, architecture, and project management. I am a results-driven leader with a proven track record of delivering high-quality software solutions on time and within budget." }}
 
 {{/* Custom data from configuration file */}}
-{{ with site.Data.sections.hero }}
+{{ with site.Data.sections.about }}
   {{ if .title1 }}{{ $title1 = .title1 }}{{ end }}
   {{ if .text1 }}{{ $text1 = .text1 }}{{ end }}
 
