@@ -20,9 +20,10 @@
         <div>
           <h3 class="mb-4 text-lg font-medium sm:text-xl lg:text-lg xl:text-xl">{{ .title }}</h3>
           <p class="md:pl-10 py-2 text-xl font-light">
-             {{ .source }}
+             <strong>Source: </strong>{{ .text }}
             </p>
           <p class="md:pl-10 py-2 text-xl font-light">
+            <strong>Credentials:</strong>
               <a href="{{ .link }}" target="_blank" class="text-blue-500 hover:underline">{{ .credentials }}</a>
             </p>
         </div>
