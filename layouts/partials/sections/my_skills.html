@@ -1,9 +1,9 @@
 {{/* Data */}}
 {{ $title := "Skills & Service Offerings" }}
 {{ $skills := slice
-(dict "title" "Machine Learning & AI" "icon" "bx-brain" "text" (slice "Well-versed in Predictive modelling, Recommendation systems, Supervised, Unsupervised and Deep learning techniques with proficiency in Advance Python (Scikit-Learn, TensorFlow, PySpark) and Bayesian statistics" "Experienced in Feature Engineering, Anomaly detection, Model Evaluation, Hyperparameter Tuning, and Model Deployment."))
+(dict "title" "Machine Learning & AI" "icon" "bx-brain" "text" (slice "Well-versed in Predictive modelling, Recommendation systems, Supervised, Unsupervised and Deep learning techniques with proficiency in Advance Python (Scikit-Learn, TensorFlow, PySpark) and Bayesian statistics."))
 (dict "title" "Data Analytics" "icon" "bx-bar-chart" "text" (slice "Proficient in leveraging R, Python (NumPy, Pandas, SciPy, Seaborn), and Advanced Excel for data manipulation and analysis." "Expertise includes Statistical modeling, Regression analysis, Descriptive analytics, and A/B testing."))
-(dict "title" "Databases & Business Intelligence" "icon" "bx-bar-chart" "text" (slice "Well-versed with SQL databases (MySQL, PostgreSQL) and  NoSQL (MongoDB) databases for data manipulations." "Experienced with BI tools including Looker, Power BI, and Tableau, with strong knowledge of visual encoding, color theory and data storytelling."))
+(dict "title" "Databases & Business Intelligence" "icon" "bx-bar-chart" "text" (slice "Well-versed with SQL databases (MySQL, PostgreSQL) and  NoSQL (MongoDB) databases for data manipulations." "Experienced with BI tools including Looker, Power BI, and Tableau, with strong knowledge of visual encoding, color theory, and data storytelling."))
 
 (dict "title" "Program & Product Management" "icon" "bx-group" "text" (slice "Experienced in Product roadmapping, Streamlining processes and improve tracking with Agile methodologies (Scrum, Kanban), and Organising operations with SLx." "Well versed with tools like Jira, ServiceNow, Notion, and Confluence."))  
 (dict "title" "Stakeholder Management" "icon" "bx-group" "text" (slice "Proficient in data flow diagramming with Miro, Visio, and Draw.io to facilitate both technical & non-technical stakeholder communication." "Additionally, adept with Microsoft 365, Google Workspace, and Slack for effective collaboration."))
@@ -31,7 +31,7 @@
         <div>
           <h3 class="mb-4 text-lg font-medium sm:text-xl lg:text-lg xl:text-xl">{{ .title }}</h3>
           {{ range .text }}
-            <p class="md:pl-10 py-2 text-xl font-light">
+            <p class="text-lg font-light">
               {{ . }}
             </p>
           {{ end }}
