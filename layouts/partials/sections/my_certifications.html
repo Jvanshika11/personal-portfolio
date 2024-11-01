@@ -22,10 +22,12 @@
           <p class="md:pl-10 py-2 text-xl font-light">
              <strong>Source: </strong>{{ .text }}
             </p>
+          {{if .credentials }}
           <p class="md:pl-10 py-2 text-xl font-light">
             <strong>Credentials:</strong>
               <a href="{{ .link }}" target="_blank" class="text-blue-500 hover:underline">{{ .credentials }}</a>
             </p>
+          {{ end }}
         </div>
       </div>
     </div>
