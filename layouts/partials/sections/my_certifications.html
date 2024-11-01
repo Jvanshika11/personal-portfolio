@@ -25,7 +25,11 @@
           {{if .credentials }}
           <p class="md:pl-10 py-2 text-xl font-light">
             <strong>Credentials:</strong>
-              <a href="{{ .link }}" target="_blank" class="text-blue-500 hover:underline">{{ .credentials }}</a>
+              {{if .link }}
+                <a href="{{ .link }}" target="_blank" class="text-blue-500 hover:underline">{{ .credentials }}</a>
+              {{ else }}
+                {{ .credentials }}
+              {{ end }}
             </p>
           {{ end }}
         </div>
