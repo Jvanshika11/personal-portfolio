@@ -65,11 +65,12 @@
   </div>
 </div>
 
+
 <!-- More About Me button -->
 <div class="flex justify-center mt-8">
   <button 
     onclick="toggleDescription()" 
-    class="flex items-center space-x-2 bg-gray-700 hover:bg-gray-600 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-200">
+    class="flex items-center space-x-2 bg-gray-700 hover:bg-gray-900 text-white hover:text-gray-200 font-medium py-2 px-4 rounded-lg transition-all duration-200">
     <span>More About Me</span>
     <svg 
       id="arrow-icon"
@@ -85,7 +86,7 @@
 <!-- Description section -->
 <div 
   id="description-section" 
-  class="text-lg xl:text-xl text-center font-light p-2 md:p-10 max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+  class="text-lg xl:text-xl text-center font-light p-2 md:p-10 overflow-hidden transition-all duration-300 ease-in-out opacity-0 h-0">
   {{ $description }}
 </div>
 
@@ -93,21 +94,37 @@
   .rotate-180 {
     transform: rotate(180deg);
   }
+  
+  #description-section.active {
+    opacity: 1;
+    height: auto;
+  }
 </style>
 
 <script>
-  function toggleDescription() {
-    const description = document.getElementById('description-section');
-    const arrow = document.getElementById('arrow-icon');
-    
-    if (description.style.maxHeight === '0px' || !description.style.maxHeight) {
-      description.style.maxHeight = description.scrollHeight + 'px';
-      arrow.classList.add('rotate-180');
-    } else {
-      description.style.maxHeight = '0px';
-      arrow.classList.remove('rotate-180');
-    }
+document.addEventListener('DOMContentLoaded', function() {
+  // Ensure description is hidden initially
+  const description = document.getElementById('description-section');
+  description.style.height = '0';
+  description.style.opacity = '0';
+});
+
+function toggleDescription() {
+  const description = document.getElementById('description-section');
+  const arrow = document.getElementById('arrow-icon');
+  
+  if (!description.classList.contains('active')) {
+    description.classList.add('active');
+    description.style.height = 'auto';
+    description.style.opacity = '1';
+    arrow.classList.add('rotate-180');
+  } else {
+    description.classList.remove('active');
+    description.style.height = '0';
+    description.style.opacity = '0';
+    arrow.classList.remove('rotate-180');
   }
+}
 </script>
 
 <div class="text-lg xl:text-xl text-center font-light p-2 md:p-10">
