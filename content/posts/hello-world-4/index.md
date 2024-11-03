@@ -1,7 +1,7 @@
 ---
 title: 'US-Stock-Market-Analysis'
-date: 2023-05-15
-tags: ["Python", "NetworkX", "Machine Learning", "Data Analysis", "Graph Theory", "Fintech"]
+date: 2023-05
+tags: ["Machine Learning", "Data Analysis", "Graph Theory", "Fintech"]
 image: 'cover.png'
 draft: false
 ---
@@ -16,10 +16,10 @@ Engineered a comprehensive network analysis system for S&P 500 stocks (2018-2022
 ## Technologies
 - **Programming**: Python
 - **Data Processing**: NumPy, Pandas
-- **Network Analysis**: NetworkX
-- **Machine Learning**: Scikit-learn, Community Detection (Louvain)
 - **Data Collection**: Yahoo Finance API
 - **Visualization**: Matplotlib, Plotly
+- **Network Analysis**: NetworkX
+- **Machine Learning**: Scikit-learn, Community Detection (Louvain)
 
 ## Implementation Details
 
