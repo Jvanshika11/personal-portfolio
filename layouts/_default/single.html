@@ -3,10 +3,11 @@
     <div class="grid grid-cols-1 gap-6">
       <div class="bg-gray-50 px-8 py-10 rounded-md post-content">
         <img
-          class="rounded-md mb-4 w-full md:w-4/5 lg:w-2/3 mx-auto max-h-[400px] object-contain"
-          src="{{ .RelPermalink }}/{{ .Params.image }}"
-          alt="{{ .Title }}"
-          title="{{ .Title }}" />
+            class="rounded-md mb-4 w-full"
+            style="max-height: 300px; object-fit: contain;"
+            src="{{ .RelPermalink }}/{{ .Params.image }}"
+            alt="{{ .Title }}"
+            title="{{ .Title }}" />
         <h1 class="font-medium text-gray-700 text-3xl md:text-4xl mb-5">{{ .Title }}</h1>
         {{ partial "partials/project_portfolio/meta.html" . }}
           <article>
