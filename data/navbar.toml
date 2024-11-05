@@ -34,6 +34,12 @@ logo  = "img/logo.png"
   link        = "/posts"
   target      = "_self"
 
+[[menu]]
+  text        = "Projects"
+  description = "Discover my personal projects"
+  link        = "/project_portfolio"
+  target      = "_self"
+
 [button]
   enabled = true
   text    = "Download my CV"
