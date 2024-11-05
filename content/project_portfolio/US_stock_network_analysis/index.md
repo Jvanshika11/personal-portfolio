@@ -64,16 +64,16 @@ The project investigated stock market connectivity patterns using advanced graph
 - Temporal community stability analysis
 
 ## Key Results
-1. Identified financial sector stocks as consistently high-degree nodes
-2. Mapped dramatic network structure changes during March 2020 market crash
-3. Discovered strong community correlation in Finance, Real Estate, Utilities, and Energy sectors
-4. Quantified weaker community patterns in IT, Materials, and Consumer sectors
-5. Demonstrated increased market connectivity during high volatility periods
-6. Revealed temporal evolution of stock communities
-7. Identified key stocks with high betweenness centrality as potential market indicators
-8. Documented significant changes in average network degree during market stress
-9. Mapped sector-specific responses to COVID-19 market conditions
-10. Established correlation between network metrics and market volatility
+- Identified financial sector stocks as consistently high-degree nodes
+- Mapped dramatic network structure changes during March 2020 market crash
+- Discovered strong community correlation in Finance, Real Estate, Utilities, and Energy sectors
+- Quantified weaker community patterns in IT, Materials, and Consumer sectors
+- Demonstrated increased market connectivity during high volatility periods
+- Revealed temporal evolution of stock communities
+- Identified key stocks with high betweenness centrality as potential market indicators
+- Documented significant changes in average network degree during market stress
+- Mapped sector-specific responses to COVID-19 market conditions
+- Established correlation between network metrics and market volatility
 
 ## Skills Gained
 - Complex network analysis and financial modeling
