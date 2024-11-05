@@ -8,13 +8,11 @@ draft: false
 ---
 
 Developed a sophisticated network analysis system for S&P 500 stocks (2018-2022), employing advanced graph theory and machine learning techniques to visualize and analyze market interconnectivity patterns. The project revealed crucial insights into stock market behavior during the COVID-19 pandemic, identifying influential stocks and sector-based communities through correlation analysis and network metrics. Notable findings included the detection of scale-free properties in market networks and the quantification of sector-based trading patterns using Jaccard similarity coefficients.
-[**Project Github**](https://github.com/shubham777/US-Stock-Market-Analysis-using-Network-Graphs)
 
 <!--more-->
 
 ## Overview
 The project investigated stock market connectivity patterns using advanced graph theory, a sophisticated network analysis and the Winner-Take-All (WTA) methodology, examining S&P 500 stocks from 2018 to 2022, with a particular focus on the COVID-19 pandemic period. The research answered critical questions about network properties like degree distribution, clustering coefficients, and modularity over time, while also tracking the evolution of stock connectivity during market turbulence. Of particular significance was the identification of high-centrality stocks and their role changes during the pandemic, offering valuable insights for investment strategies and risk management.
-[**Project Github**](https://github.com/shubham777/US-Stock-Market-Analysis-using-Network-Graphs)
 
 ## Technologies
 - **Programming**: Python
