@@ -27,12 +27,6 @@ logo  = "img/logo.png"
   link        = "#testimonials"
   target      = "_self"
   
-  
-[[menu]]
-  text        = "Projects"
-  description = "Discover my personal projects"
-  link        = "/posts"
-  target      = "_self"
 
 [[menu]]
   text        = "Projects"
