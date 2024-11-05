@@ -8,16 +8,9 @@
       {{ $paginator := .Paginate $posts 10 }}
       {{ range $paginator.Pages }}
         <div class="bg-gray-50 px-8 py-10 rounded-md">
-          <a href="{{ .RelPermalink }}">
-            <img
-              class="rounded-md mb-4"
-              src="{{ .RelPermalink }}/{{ .Params.image }}"
-              alt="{{ .Title }}"
-              title="{{ .Title }}" />
-          </a>
           <div class="relative">
             <a href="{{ .RelPermalink }}">
-              <h2 class="font-medium text-gray-700 text-xl relative z-10">{{ .Title }}</h2>
+              <h2 class="font-medium text-gray-700 text-xl relative z-10 text-center">{{ .Title }}</h2>
             </a>
           </div>
           {{ partial "partials/project_portfolio/meta.html" . }}
