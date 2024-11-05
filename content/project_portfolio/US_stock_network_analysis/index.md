@@ -6,6 +6,42 @@ image: 'cover.png'
 draft: false
 ---
 
+<style>
+h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    color: #374151;
+}
+
+h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 1.25rem;
+    margin-bottom: 0.75rem;
+    color: #374151;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+strong {
+    font-weight: 600;
+}
+</style>
+
 Developed a sophisticated network analysis system for S&P 500 stocks (2018-2022), employing advanced graph theory and machine learning techniques to visualize and analyze market interconnectivity patterns. The project revealed crucial insights into stock market behavior during the COVID-19 pandemic, identifying influential stocks and sector-based communities through correlation analysis and network metrics. Notable findings included the detection of scale-free properties in market networks and the quantification of sector-based trading patterns using Jaccard similarity coefficients.
 
 <!--more-->
