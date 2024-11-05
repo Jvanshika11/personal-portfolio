@@ -13,6 +13,12 @@
         {{ if eq .ReadingTime 1 }}minute{{ else }}minutes{{ end }}
       </span>
     </div>
+    {{ if .Params.github }}
+  <div class="m-2 text-base flex whitespace-nowrap items-center">
+    <i class="bx bxl-github text-gray-500"></i>
+    <a href="{{ .Params.github }}" target="_blank" class="text-blue-500 hover:underline text-sm mx-1 h-5">GitHub</a>
+  </div>
+  {{ end }}
   </div>
   <div class="flex items-center"> <!-- Tags in a separate flex container -->
     <div class="flex whitespace-nowrap items-center">
