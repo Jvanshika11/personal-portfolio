@@ -23,11 +23,11 @@
         <a class="text-blue-500 hover:underline text-sm mx-1 h-5" href="{{ $href }}" aria-label="{{ . }}">{{ . }}</a>
       {{ end }}
     </div>
-  </div>
-    {{ if .Params.github }}
+     {{ if .Params.github }}
   <div style="padding: 4px 12px; background: white; border: 1px solid #e5e7eb; border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);" class="m-2 text-base flex whitespace-nowrap items-center">
     <i class="bx bxl-github text-gray-500"></i>
     <a href="{{ .Params.github }}" target="_blank" class="text-blue-500 hover:underline text-sm mx-1 h-5">GitHub</a>
   </div>
   {{ end }}
+  </div>
 </div>
