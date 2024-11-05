@@ -1,6 +1,6 @@
 {{ define "main" }}
   <div class="container max-w-screen-xl mx-auto px-4">
-    {{ if eq .Kind "taxonomy" }}
+    {{ if eq .Kind "term" }}
       <h1 class="text-center font-medium text-gray-700 text-3xl md:text-4xl mb-5 font-poppins">{{ .Title | title }} Projects</h1>
     {{ end }}
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
