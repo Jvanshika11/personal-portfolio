@@ -63,6 +63,14 @@ The project investigated stock market connectivity patterns using advanced graph
 - Cross-sector connectivity patterns
 - Temporal community stability analysis
 
+## Skills Gained
+- Complex network analysis and financial modeling
+- Large-scale data processing and optimization
+- Advanced Python programming and API integration
+- Statistical analysis and machine learning applications
+- Graph theory and community detection algorithms
+- Financial time series analysis and visualization
+
 ## Key Results
 - Identified financial sector stocks as consistently high-degree nodes
 - Mapped dramatic network structure changes during March 2020 market crash
@@ -75,13 +83,11 @@ The project investigated stock market connectivity patterns using advanced graph
 - Mapped sector-specific responses to COVID-19 market conditions
 - Established correlation between network metrics and market volatility
 
-## Skills Gained
-- Complex network analysis and financial modeling
-- Large-scale data processing and optimization
-- Advanced Python programming and API integration
-- Statistical analysis and machine learning applications
-- Graph theory and community detection algorithms
-- Financial time series analysis and visualization
+<img 
+  src="image_1.png" 
+  alt="Network Analysis Results"
+  style="width: 100%; max-width: 500px; margin: 20px auto; display: block;"
+/>
 
 ## Impact
 The system provides actionable insights for investment strategies and risk management, demonstrating the power of network analysis in understanding stock market dynamics. The methodology is adaptable to various market conditions and timeframes, making it a valuable tool for financial analysis.
