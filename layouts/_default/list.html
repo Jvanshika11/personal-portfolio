@@ -13,14 +13,15 @@
         "Data Analysis" 
         "Ensemble Learning" 
         "Financial Analysis" 
-        "Game Analytics" 
+        "Forecasting" 
+        "Game Development" 
         "Healthcare Analytics" 
         "Machine Learning" 
         "Reinforcement Learning" 
         "Web Development" }}
       
       <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-bottom: 20px;">
-        {{ range $uniqueTags }}
+        {{ range $relevantTags }}
           {{ $href := print (absURL "tags/") (urlize .) }}
           <a href="{{ $href }}" 
              style="padding: 5px 15px; 
