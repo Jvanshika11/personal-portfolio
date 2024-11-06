@@ -5,7 +5,6 @@ tags: [
     "Machine Learning",
     "Data Analysis",
     "Ensemble Learning",
-    "Statistical Analysis",
     "Regression Analysis"
 ]
 image: 'cover.jpg'
