@@ -19,12 +19,12 @@ logo  = "img/logo.png"
 
 [[menu]]
   text        = "Skills & Services"
-  link        = "#skills"
+  link        = "https://vanshika-jain.netlify.app/#my_skills"
   target      = "_self"
   
 [[menu]]
   text        = "Testimonials"
-  link        = "#testimonials"
+  link        = "https://vanshika-jain.netlify.app/#my_testimonials"
   target      = "_self"
   
 
