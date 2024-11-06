@@ -8,13 +8,16 @@
 <!-- Tag section -->
     {{ if ne .Kind "term" }}
     <div style="margin-bottom: 2rem;">
-      {{ $tags := slice }}
-      {{ range .Pages }}
-        {{ range .Params.tags }}
-          {{ $tags = $tags | append . }}
-        {{ end }}
-      {{ end }}
-      {{ $uniqueTags := uniq $tags | sort }}
+      {{ $relevantTags := slice 
+        "Business Intelligence" 
+        "Data Analysis" 
+        "Ensemble Learning" 
+        "Financial Analysis" 
+        "Game Analytics" 
+        "Healthcare Analytics" 
+        "Machine Learning" 
+        "Reinforcement Learning" 
+        "Web Development" }}
       
       <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-bottom: 20px;">
         {{ range $uniqueTags }}
