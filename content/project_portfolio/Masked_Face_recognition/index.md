@@ -1,7 +1,7 @@
 ---
 title: 'Ensemble Learning for Masked Face Recognition'
-date: 2024-01-15
-tags: ["Deep Learning", "Computer Vision", "Transformers", "CNN", "Ensemble Learning"]
+date: 2023-03-15
+tags: ["Machine Learning", "CNN", "Ensemble Learning", "TensorFlow", "Transfer Learning"]
 image: 'cover.png'
 github: 'https://github.com/shubham777/Ensemble-Learning-using-Transformers-and-Convolutional-Networks-for-Masked-Face-Recognition'
 draft: false
