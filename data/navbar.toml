@@ -29,7 +29,7 @@ logo  = "img/logo.png"
   
 
 [[menu]]
-  text        = "Projects"
+  text        = "Personal Projects"
   description = "Discover my personal projects"
   link        = "/project_portfolio"
   target      = "_self"
