@@ -83,11 +83,7 @@ The project investigated stock market connectivity patterns using advanced graph
 - Mapped sector-specific responses to COVID-19 market conditions
 - Established correlation between network metrics and market volatility
 
-<img 
-  src="image_1.png" 
-  alt="Network Analysis Results"
-  style="width: 100%; max-width: 500px; margin: 20px auto; display: block;"
-/>
+![Network Analysis Results](image_1.png)
 
 ## Impact
 The system provides actionable insights for investment strategies and risk management, demonstrating the power of network analysis in understanding stock market dynamics. The methodology is adaptable to various market conditions and timeframes, making it a valuable tool for financial analysis.
