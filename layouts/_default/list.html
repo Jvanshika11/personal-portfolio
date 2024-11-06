@@ -1,8 +1,42 @@
 {{ define "main" }}
+<!-- Title section -->
   <div class="container max-w-screen-xl mx-auto px-4">
     {{ if eq .Kind "term" }}
       <h1 class="text-center font-medium text-gray-700 text-3xl md:text-4xl mb-5 font-poppins">{{ .Title | title }} Projects</h1>
     {{ end }}
+    
+<!-- Tag section -->
+    {{ if ne .Kind "term" }}
+    <div style="margin-bottom: 2rem;">
+      {{ $tags := slice }}
+      {{ range .Pages }}
+        {{ range .Params.tags }}
+          {{ $tags = $tags | append . }}
+        {{ end }}
+      {{ end }}
+      {{ $uniqueTags := uniq $tags | sort }}
+      
+      <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-bottom: 20px;">
+        {{ range $uniqueTags }}
+          {{ $href := print (absURL "tags/") (urlize .) }}
+          <a href="{{ $href }}" 
+             style="padding: 5px 15px; 
+                    background-color: white; 
+                    border-radius: 6px; 
+                    color: #3b82f6; 
+                    text-decoration: none;
+                    border: 1px solid #e5e7eb;
+                    font-size: 0.875rem;
+                    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+                    transition: all 0.2s ease;">
+            {{ . }}
+          </a>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+    
+<!--     grid section -->
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
       {{ $posts := .Pages.ByPublishDate.Reverse }}
       {{ $paginator := .Paginate $posts 10 }}
