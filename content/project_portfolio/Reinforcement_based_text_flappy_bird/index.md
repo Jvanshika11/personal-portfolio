@@ -1,6 +1,6 @@
 ---
 title: 'RL Agents for Text Flappy Bird'
-date: 2024-01-20
+date: 2023-04-15
 tags: [
     "Reinforcement Learning",
     "OpenAI Gym",
