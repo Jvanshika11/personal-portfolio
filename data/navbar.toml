@@ -37,5 +37,5 @@ logo  = "img/logo.png"
 [button]
   enabled = true
   text    = "Download my CV"
-  link    = "https://vanshika-jain.netlify.app/files/cv.pdf"
+  link    = "https://vanshika-jain.netlify.app/files/Vanshika-Jain-CV.pdf"
   target  = "_blank"
